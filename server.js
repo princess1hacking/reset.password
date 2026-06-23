@@ -3,8 +3,6 @@ const path = require("path");
 const fs = require("fs");
 
 
-app.use(express.static(_dirname));
-
 // ─── Config ───────────────────────────────────────────────────────────────────
 const PORT       = process.env.PORT       || 3000;
 const ADMIN_KEY  = process.env.ADMIN_KEY  || "admin-secret-change-me";
